@@ -1,0 +1,65 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  font-family: "Montserrat";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #34495e;
+}
+
+.text {
+  font-size: 60px;
+  color: #f1f1f1;
+  font-weight: 900;
+  position: relative;
+}
+
+.text::after {
+  content: "";
+  position: absolute;
+  width: 36px;
+  height: 14px;
+  background-color: #e74c3c;
+  border-radius: 10px;
+  bottom: 14px;
+  left: -54px;
+  animation: trans 1.1s linear infinite;
+  opacity: 0;
+}
+
+@keyframes trans {
+  20% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    left: calc(100% + 18px);
+  }
+}
+
+.text span {
+  display: inline-block;
+  animation: wave 1.1s linear infinite;
+}
+
+.text span:nth-child(2) {
+  animation-delay: 100ms;
+}
+.text span:nth-child(3) {
+  animation-delay: 200ms;
+}
+.text span:nth-child(4) {
+  animation-delay: 300ms;
+}
+
+@keyframes wave {
+  50% {
+    transform: translateY(-32px);
+  }
+}
