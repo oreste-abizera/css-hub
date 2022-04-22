@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #e15f41;
+}
+
+.loader {
+  width: 60px;
+  height: 60px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bounce-one,
+.bounce-two {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #ffffff;
+  position: absolute;
+  opacity: 0.6;
+  animation: bounce 2s ease-in-out infinite;
+}
+
+.bounce-two {
+  animation-delay: -1s;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
