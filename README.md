@@ -6,9 +6,15 @@
 
 ☝ Water Wave Text Animation Using CSS clip-path 👆
 
-     2. loaders
+     2. Fingerprint Scanner
 
-![demo](https://user-images.githubusercontent.com/54312264/164911044-83090905-48b6-47e0-a0d1-c1271da89499.gif)
+![Fingerprint scanner demo](https://user-images.githubusercontent.com/54312264/165024130-41b71b94-b4f0-4f99-ba04-a7fbe17b8b86.gif)
+
+☝ Fingerprint Scanner Built using Only HTML And CSS 👆
+
+     3. loaders
+
+![Loaders demo](https://user-images.githubusercontent.com/54312264/164911044-83090905-48b6-47e0-a0d1-c1271da89499.gif)
 
 ☝ Loaders Built using Only HTML And CSS 👆
 
