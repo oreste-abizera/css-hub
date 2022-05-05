@@ -1,0 +1,74 @@
+/* color variables */
+:root {
+  --bg-dark: #272822;
+  --bg-light: #ffffff;
+  --color-1: #ffff00;
+  --color-2: #ff0000;
+  --color-3: #009000;
+  --color-4: #d116d1;
+  --color-5: #4682b4;
+  --color-6: #dc143c;
+  --color-7: #00ffff;
+}
+
+body {
+  background-color: var(--bg-dark);
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* animation */
+@keyframes anime-dvd {
+  15% {
+    top: 83%;
+    left: 45%;
+    background-color: var(--color-2);
+  }
+
+  30% {
+    top: 40%;
+    left: 90%;
+    background-color: var(--color-3);
+  }
+
+  45% {
+    top: 0%;
+    left: 50%;
+    background-color: var(--color-4);
+  }
+
+  60% {
+    top: 60%;
+    left: 0%;
+    background-color: var(--color-5);
+  }
+
+  75% {
+    top: 82%;
+    left: 30%;
+    background-color: var(--color-6);
+  }
+
+  90% {
+    top: 40%;
+    left: 82%;
+    background-color: var(--color-7);
+  }
+
+  100% {
+    top: 0;
+    left: 0;
+  }
+}
+
+img {
+  background-color: var(--color-1);
+  position: relative;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  animation: anime-dvd 20s forwards infinite alternate-reverse linear;
+}
