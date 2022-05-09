@@ -18,13 +18,19 @@
 
 ☝ Fingerprint Scanner Built using Only HTML And CSS 👆
 
-     4. loaders
+     4. Rainy Cloud Animation
+
+![Rainy Cloud demo](https://user-images.githubusercontent.com/54312264/167408296-ec585031-6e2b-4103-9604-fe6b884a90ba.gif)
+
+☝ Rainy Cloud Animation Built using Only HTML And CSS 👆
+
+     5. loaders
 
 ![Loaders demo](https://user-images.githubusercontent.com/54312264/164911044-83090905-48b6-47e0-a0d1-c1271da89499.gif)
 
 ☝ Loaders Built using Only HTML And CSS 👆
 
-     5. text-animation
+     6. text-animation
 
 ![Text Animation Demo](https://user-images.githubusercontent.com/54312264/164391798-9f8757b5-e643-4984-8176-047c2909f8be.gif)
 
